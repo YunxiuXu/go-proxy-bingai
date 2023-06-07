@@ -126,7 +126,7 @@ const hackStyle = () => {
   serpEle?.shadowRoot?.querySelector('cib-serp-feedback')?.remove();
   if (isMobile()) {
     welcomeEle?.shadowRoot?.querySelector('.container-item')?.remove();
-    CIB.vm.actionBar.input.placeholder = '有问题2尽管问我...（"/" 触发提示词）';
+    CIB.vm.actionBar.input.placeholder = '有问题尽管问我...（"/" 触发提示词）';
   }
   // 加入css
   const conversationStyleEle = document.createElement('style');
