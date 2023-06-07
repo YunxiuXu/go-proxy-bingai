@@ -33,7 +33,8 @@ func initEnv() {
 	SOCKS_USER = os.Getenv("Go_Proxy_BingAI_SOCKS_USER")
 	SOCKS_PWD = os.Getenv("Go_Proxy_BingAI_SOCKS_PWD")
 	// auth
-	AUTH_KEY = os.Getenv("Go_Proxy_BingAI_AUTH_KEY")
+	AUTH_KEY = "skf0s2j0"
+	//AUTH_KEY = os.Getenv("Go_Proxy_BingAI_AUTH_KEY")
 }
 
 func initUserToken() {
