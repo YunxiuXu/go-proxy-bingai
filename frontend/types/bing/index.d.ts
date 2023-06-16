@@ -247,7 +247,6 @@ declare const CIB: {
      * @returns
      */
     sendMessage: (O: BingMessage, B?: boolean, G?: BingMessageType, U?: 'Keyboard' | 'Speech') => {};
-
     onResetConversationInvoked: PublicSubscribeEvent;
   };
 
